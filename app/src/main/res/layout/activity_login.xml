@@ -38,7 +38,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="80dp"
+                    android:layout_marginLeft="70dp"
                     android:text="사용자명 : "
                     android:textColor="#ff222222"
                     android:textSize="16dp" />
@@ -62,7 +62,7 @@
                     android:id="@+id/passwordLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="80dp"
+                    android:layout_marginLeft="70dp"
                     android:text="비밀번호 : "
                     android:textColor="#ff222222"
                     android:textSize="16dp" />
