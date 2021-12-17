@@ -17,7 +17,7 @@ public class ProductActivity extends AppCompatActivity {
 
     ImageView imageView1;
     ImageView imageView2;
-    ImageView imageView3;
+
 
     int imageIndex=0;
 
@@ -29,7 +29,7 @@ public class ProductActivity extends AppCompatActivity {
 
         imageView1 = findViewById(R.id.imageView1);
         imageView2 = findViewById(R.id.imageView2);
-        imageView3 = findViewById(R.id.imageView3);
+
     }
     public  void onButtonClicked(View V){
         changeImage();
@@ -39,7 +39,11 @@ public class ProductActivity extends AppCompatActivity {
         if(imageIndex == 0){
             imageView1.setVisibility(View.VISIBLE);
             imageView2.setVisibility(View.INVISIBLE);
-            imageView3.setVisibility(View.INVISIBLE);
+            imageIndex = 1;
+        }
+        else if(imageIndex == 1){
+            imageView1.setVisibility(View.INVISIBLE);
+            imageView2.setVisibility(View.VISIBLE);
             imageIndex = 0;
         }
     }
